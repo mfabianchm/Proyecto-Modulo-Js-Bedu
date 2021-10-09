@@ -1,0 +1,458 @@
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.navbar-sections {
+    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: -80px;
+    font-size: 17px;
+}
+
+.navbar-sections a {
+    color:rgb(110, 110, 110)
+}
+
+.logo {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.nav-bar button {
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 213, 27);
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+    left: 40px;
+    position: relative;
+}
+
+.hero {
+    display: flex;
+    padding: 50px 25px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+    transition: transform 1s ease-in-out;
+    position: relative;
+    left: -1500px;
+    
+}
+
+.hero-animation {
+    transform: translateX(1500px);
+}
+
+.hero img {
+    height: 80%;
+    width: 45%;
+}
+
+.hero .hero-text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+    position: relative;
+}
+
+.hero .hero-text h1 {
+  font-size: 50px;
+  font-weight: 700;
+ 
+}
+
+.hero .hero-text h2 {
+    font-weight: 400;
+    color:rgb(110, 110, 110);
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+.hero .hero-text button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(31, 153, 137);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+
+.faq-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+  background-color: rgb(31, 31, 56);
+}
+
+.faq-container .text-preguntas {
+    width: 35%;
+    position: relative;
+    top: -30px;
+}
+.faq-container h1 {
+    height: 50%;
+    width: 40%;
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 50px;
+
+}
+
+.faq-container .text-preguntas p {
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 20px;
+}
+
+.faq-container .text-menu-container {
+    background-color: rgb(31, 31, 56);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq-container .text-menu-container .text-menu {
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    height: 80px;
+    background-color: rgb(31, 31, 56);
+    color: white;
+}
+
+.faq-container .text-menu-container .text-menu svg, .svg2, .svg3, .svg4 {
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    cursor: pointer;
+
+    
+}
+
+.faq-container .text-menu-container .text-menu .button {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    top: 20px;
+    position: relative;
+    border: none;
+    background-color: rgb(31, 31, 56);
+    color: white;
+}
+
+.faq-container .text-menu-container .text-menu .button:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+
+
+
+
+.faq-container .text-menu-container .text-menu .ul, .ul2, .ul3, .ul4 {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.ul-animation {
+    transition: transform 1s;
+    transform: translateY(30px);
+    opacity: 1;
+    color: white;
+    background-color: rgb(31, 31, 56);
+}
+
+
+
+.tmc-animation {
+    background-color: rgb(31, 31, 56);
+    border-bottom: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    height: 130px;
+    transition: 1s;
+}
+
+.button-animation {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    top: 20px;
+    position: relative;
+    border: none;
+    background-color: rgb(31, 31, 56);
+    color: white;
+}
+
+
+.svg-animation {
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    cursor: pointer;
+}
+
+
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 237, 238);
+    align-items: center;
+    height: 550px;
+}
+
+.settings-container h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+
+.settings-container .flex-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 70px;
+    left: -1200px;
+    transition: transform 1s ease-in-out;
+}
+
+.active {
+ transform: translateX(1200px);
+}
+
+.settings-container .flex-container .flex-component {
+    background-color: white;
+    width: 20%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+    
+}
+
+
+
+
+
+.settings-container .flex-container .flex-component h2 {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    top: 20px;
+}
+
+
+.settings-container .flex-container .flex-component p {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: rgb(148, 145, 145);
+}
+
+.settings-container .flex-container img {
+    height: 80px;
+    width: 80px;
+}
+
+.pricing-container {
+    height: 900px;
+    background-color: rgb(170, 207, 205);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pricing-container .precios-head {
+    color: rgb(25, 25, 37);
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+.pricing-container .precios-head h1 {
+    font-size: 40px;
+}
+
+.pricing-container .precios-head p {
+    color: rgb(49, 49, 73);
+}
+
+.pricing-container .box-pricing-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    width: 80%;
+   
+}
+
+.pricing-container .box-pricing-container .first-box-price, .third-box-price {
+    background-color: white;
+    height: 75%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+}
+
+.pricing-container .box-pricing-container .first-box-price h3, .third-box-price h3 {
+    
+    font-size: 25px;
+    position: relative;
+    right: 85px;
+    
+}
+
+.pricing-container .box-pricing-container .first-box-price h1, .third-box-price h1 {
+    font-size: 35px;
+    position: relative;
+    top: -25px;
+    right: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pricing-container .box-pricing-container .first-box-price #leyend, .third-box-price #leyend {
+   position: relative;
+   top: -45px;
+   border-bottom: 1px solid rgb(209, 208, 208);
+   width: 95%;
+   padding-bottom: 15px;
+}
+
+.pricing-container .box-pricing-container .first-box-price #feature, .third-box-price #feature {
+   color: rgb(131, 131, 143);
+   font-size: 15px;
+   position: relative;
+   bottom: 35px;
+   font-weight: 600;
+  
+}
+
+.pricing-container .box-pricing-container .first-box-price button, .third-box-price button {
+    background-color: rgb(30, 30, 71);
+    height: 40px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 30px;
+    border: none;
+}
+
+
+
+.pricing-container .box-pricing-container .second-box-price {
+    background-color: rgb(24, 24, 36);
+    height: 85%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+
+}
+
+.pricing-container .box-pricing-container .second-box-price h3 {
+    
+    font-size: 25px;
+    position: relative;
+    right: 85px;
+    color: rgb(76, 48, 199);
+    top: 20px;
+    
+}
+
+.pricing-container .box-pricing-container .second-box-price h1 {
+    font-size: 35px;
+    position: relative;
+    top: -25px;
+    right: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    top: 9px;
+}
+
+.pricing-container .box-pricing-container .second-box-price #leyend {
+   position: relative;
+   border-bottom: 1px solid rgb(209, 208, 208);
+   width: 95%;
+   padding-bottom: 28px;
+   color: white;
+   top: -10px
+  
+}
+
+.pricing-container .box-pricing-container .second-box-price #feature {
+   color: rgb(131, 131, 143);
+   font-size: 15px;
+   position: relative;
+  
+   font-weight: 600;
+   color: white;
+  
+}
+
+.pricing-container .box-pricing-container .second-box-price button {
+    background-color: rgb(76, 48, 199);
+    height: 40px;
+    width: 60%;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    position: relative;
+    border: none;
+    top: 5px;
+}
+
+
+
+
+
